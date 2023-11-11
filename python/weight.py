@@ -3,13 +3,10 @@ import os,sys,random
 class Weight:
     def __init__(self) -> None:
         self.weight = random.random()
-        self.input = 0
-        self.output = 0
-        self.loss_in = 0
-        self.loss_out = 0
-        self.rate = 0.1
+        self.input_neuron = None
+        self.output__neuron = None
     
-    def inference(self,input):
+    def inference(self):
         self.input = input
         self.output = self.input * self.weight
     
