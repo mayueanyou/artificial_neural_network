@@ -60,9 +60,16 @@ def mnist():
             network.calculate_loss()
             network.weight_update()
             network.reset()
-        print(data)
-    
-    #print(network.layer_list[-1])
+        
+        correct = 0
+        for i in range(len(test_img)):
+            data = network.inference(test_img[i])
+            network.layer_list[-1].input_loss(test_target[i])
+            network.calculate_loss()
+            network.weight_update()
+            network.reset()
+            if np.array(data).argmax == test_target[i].argmax: correct += 1
+        print(correct/len(test_img))
 
 if __name__ == '__main__':
     mnist()
