@@ -1,0 +1,45 @@
+000 (30424.000.000) 2023-11-14 21:58:23 Job submitted from host: <10.5.0.95:9618?addrs=10.5.0.95-9618&alias=its-og-login3.syr.edu&noUDP&sock=schedd_2016_6304>
+...
+001 (30424.000.000) 2023-11-14 21:58:43 Job executing on host: <10.5.136.236:9618?addrs=10.5.136.236-9618&alias=SURGE-OG-10-5-136-236&noUDP&sock=startd_1254_b7da>
+...
+006 (30424.000.000) 2023-11-14 21:58:51 Image size of job updated: 2673088
+	163  -  MemoryUsage of job (MB)
+	166648  -  ResidentSetSize of job (KB)
+...
+006 (30424.000.000) 2023-11-14 22:03:51 Image size of job updated: 3255104
+	605  -  MemoryUsage of job (MB)
+	619284  -  ResidentSetSize of job (KB)
+...
+006 (30424.000.000) 2023-11-14 22:23:53 Image size of job updated: 3255104
+	605  -  MemoryUsage of job (MB)
+	619308  -  ResidentSetSize of job (KB)
+...
+006 (30424.000.000) 2023-11-14 22:28:54 Image size of job updated: 3255104
+	605  -  MemoryUsage of job (MB)
+	619396  -  ResidentSetSize of job (KB)
+...
+006 (30424.000.000) 2023-11-14 23:08:57 Image size of job updated: 3255104
+	605  -  MemoryUsage of job (MB)
+	619492  -  ResidentSetSize of job (KB)
+...
+006 (30424.000.000) 2023-11-15 00:14:05 Image size of job updated: 3255104
+	606  -  MemoryUsage of job (MB)
+	619528  -  ResidentSetSize of job (KB)
+...
+006 (30424.000.000) 2023-11-15 01:24:13 Image size of job updated: 3255104
+	606  -  MemoryUsage of job (MB)
+	619632  -  ResidentSetSize of job (KB)
+...
+004 (30424.000.000) 2023-11-29 01:22:56 Job was evicted.
+	(0) CPU times
+		Usr 14 03:20:49, Sys 0 00:02:37  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :     1           1     21455 
+	   GPUs                 :     0                     1 "GPU-a6f8696b"
+	   GpusMemory (MB)      :   345                       
+	   Memory (MB)          :   606           1       128 
+...

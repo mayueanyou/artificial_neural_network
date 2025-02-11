@@ -1,0 +1,25 @@
+000 (34432.000.000) 2023-11-15 15:06:40 Job submitted from host: <10.5.0.95:9618?addrs=10.5.0.95-9618&alias=its-og-login3.syr.edu&noUDP&sock=schedd_2016_6304>
+...
+001 (34432.000.000) 2023-11-15 15:06:45 Job executing on host: <10.5.71.12:9618?addrs=10.5.71.12-9618&alias=CRUSH-NODE-10-5-71-12&noUDP&sock=startd_1177_e70f>
+...
+006 (34432.000.000) 2023-11-15 15:06:53 Image size of job updated: 40656
+	15  -  MemoryUsage of job (MB)
+	14828  -  ResidentSetSize of job (KB)
+...
+006 (34432.000.000) 2023-11-15 15:11:53 Image size of job updated: 3259792
+	605  -  MemoryUsage of job (MB)
+	619016  -  ResidentSetSize of job (KB)
+...
+004 (34432.000.000) 2023-11-29 01:22:56 Job was evicted.
+	(0) CPU times
+		Usr 13 10:12:35, Sys 0 00:02:17  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :     1           1     23078 
+	   GPUs                 :     0                     1 "GPU-e03fd37e"
+	   GpusMemory (MB)      :   838                       
+	   Memory (MB)          :   605           1       128 
+...
